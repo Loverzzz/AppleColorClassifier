@@ -3,6 +3,9 @@
 ## Overview
 This project is designed to detect apples from an image, crop them, and classify them into three color categories: **Red**, **Yellow**, and **Green**. The detection is performed using a pre-trained YOLOv8 model, and the classification is done using the HSV (Hue, Saturation, Value) color space. The goal is to prepare images of apples with appropriate labels, helping a human data labeling team to validate the results and improve the model's performance.
 
+## Dataset to Detection Apple
+https://universe.roboflow.com/105-recycler/apple-ruajr/dataset/1 (I only used some of them).
+
 ## Steps Involved
 
 ### 1. **Apple Detection and Cropping**
