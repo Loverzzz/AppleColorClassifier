@@ -3,6 +3,23 @@
 ## Overview
 This project is designed to detect apples from an image, crop them, and classify them into three color categories: **Red**, **Yellow**, and **Green**. The detection is performed using a pre-trained YOLOv8 model, and the classification is done using the HSV (Hue, Saturation, Value) color space. The goal is to prepare images of apples with appropriate labels, helping a human data labeling team to validate the results and improve the model's performance.
 
+## Requirements
+To run this project, you will need the following dependencies and setup:
+
+### 1. **Libraries**:
+   - **Ultralytics YOLO**: Used for object detection.
+   - **OpenCV**: For image processing and saving results.
+   - **NumPy**: For numerical operations like matrix manipulation and array handling.
+   - **Python**: Version 3.6 or later.
+
+### 2. **Python Libraries**:
+You can install the necessary Python libraries using the following commands:
+   ```bash
+   pip install ultralytics
+   pip install opencv-python
+   pip install numpy
+   ```
+
 ## Dataset to Detection Apple
 https://universe.roboflow.com/105-recycler/apple-ruajr/dataset/1 (I only used some of them).
 
